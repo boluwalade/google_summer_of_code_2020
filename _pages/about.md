@@ -4,10 +4,5 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+My name is Bolu Oluwalade. I recently, in May 2020, obtained my masters of science degree in Health informatics from [IUPUI](https://soic.iupui.edu/biohealth/graduate/health-informatics/masters),USA. Since 2018, I have contributed to various Health IT projects that leverage my knowledge and skills in data analysis and visualization, machine learning, statistical learning, healthcare interoperability standards and clinical decision support. Prior to that, I worked as a Clincal Laboratory Scientist in both the private and public hospitals in Nigeria. I also worked on various public health projects related to HIV/AIDs, Tuberculosis and malaria.
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
