@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Week 1 (5/4 - 5/8): Introductions to GSoC and LibreHealth | Bolu’s Corner</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Week 1 (5/4 - 5/8): Introductions to GSoC and LibreHealth" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I express my thought about my work and projects in data analytics, clinical informatics and healthcare." />
+<meta property="og:description" content="I express my thought about my work and projects in data analytics, clinical informatics and healthcare." />
+<link rel="canonical" href="https://boluabraham.github.io/bolu-oluwalade/2020/05/08/Week-1.html" />
+<meta property="og:url" content="https://boluabraham.github.io/bolu-oluwalade/2020/05/08/Week-1.html" />
+<meta property="og:site_name" content="Bolu’s Corner" />
+<meta property="og:image" content="https://boluabraham.github.io/bolu-oluwalade/my_icons/GSoC_Logo.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-08T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://boluabraham.github.io/bolu-oluwalade/2020/05/08/Week-1.html"},"description":"I express my thought about my work and projects in data analytics, clinical informatics and healthcare.","@type":"BlogPosting","url":"https://boluabraham.github.io/bolu-oluwalade/2020/05/08/Week-1.html","headline":"Week 1 (5/4 - 5/8): Introductions to GSoC and LibreHealth","dateModified":"2020-05-08T00:00:00-05:00","datePublished":"2020-05-08T00:00:00-05:00","image":"https://boluabraham.github.io/bolu-oluwalade/my_icons/GSoC_Logo.jpg","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/bolu-oluwalade/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://boluabraham.github.io/bolu-oluwalade/feed.xml" title="Bolu's Corner" /><link rel="shortcut icon" type="image/x-icon" href="/bolu-oluwalade/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Week 1 (5/4 - 5/8): Introductions to GSoC and LibreHealth | Bolu’s Corner</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Week 1 (5/4 - 5/8): Introductions to GSoC and LibreHealth" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I express my thought about my work and projects in data analytics, clinical informatics and healthcare." />
+<meta property="og:description" content="I express my thought about my work and projects in data analytics, clinical informatics and healthcare." />
+<link rel="canonical" href="https://boluabraham.github.io/bolu-oluwalade/2020/05/08/Week-1.html" />
+<meta property="og:url" content="https://boluabraham.github.io/bolu-oluwalade/2020/05/08/Week-1.html" />
+<meta property="og:site_name" content="Bolu’s Corner" />
+<meta property="og:image" content="https://boluabraham.github.io/bolu-oluwalade/my_icons/GSoC_Logo.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-08T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://boluabraham.github.io/bolu-oluwalade/2020/05/08/Week-1.html"},"description":"I express my thought about my work and projects in data analytics, clinical informatics and healthcare.","@type":"BlogPosting","url":"https://boluabraham.github.io/bolu-oluwalade/2020/05/08/Week-1.html","headline":"Week 1 (5/4 - 5/8): Introductions to GSoC and LibreHealth","dateModified":"2020-05-08T00:00:00-05:00","datePublished":"2020-05-08T00:00:00-05:00","image":"https://boluabraham.github.io/bolu-oluwalade/my_icons/GSoC_Logo.jpg","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://boluabraham.github.io/bolu-oluwalade/feed.xml" title="Bolu's Corner" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/bolu-oluwalade/">Bolu&#39;s Corner</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/bolu-oluwalade/about/">About Me</a><a class="page-link" href="/bolu-oluwalade/search/">Search</a><a class="page-link" href="/bolu-oluwalade/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Week 1 (5/4 - 5/8): Introductions to GSoC and LibreHealth</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-05-08T00:00:00-05:00" itemprop="datePublished">
+        May 8, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/boluabraham/bolu-oluwalade/tree/master/_notebooks/2020-05-08-Week-1.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/bolu-oluwalade/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          
+          
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-05-08-Week-1.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">![](</span>my_icons/GSOC_Logo.jpg<span class="o">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="color: #f5aa42; font-family: Georgia, serif; font-size: 35px;">Project Description</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="font-family: Times New Roman, Times; font-size: 18px; line-height: 30px;">
+My proposal to ‘create web components for FHIR resources’ was accepted for GSoC 2020. I will contribute to the development of
+    the LibreHealth EHR, an open-source EHR maintained by <a href="https://librehealth.io">LibreHealth</a>.
+</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="color: #f5aa42; font-family: Georgia, serif;font-size: 25px">Librehealth</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="font-family: Times New Roman, Times; font-size: 18px; line-height: 30px;">
+Libreahealth is an open source community aimed at providing healthcare IT solutions. LibreHealth EHR, LibreHealth Radiology and LibreHealth Toolkit are some of the community's ongoing project. These projects provides easy to use,customizable and open source solutions in various healthcare settings.<br />
+The libreHealth EHR <i> "is a clinically-focused electronic health record (EHR) system designed to be both easy to use “out of the box” and also customizable for use in a variety of health care settings. It builds on the strength of the LibreHealth Toolkit, and adapts many of the proven user experiences built over many years with OpenEMR. It is designed to be a modern, easy-to-use experience for health care professionals in their daily work"</i>. To standardise and move towards a common data model, Libreahealth is building an EHR system based on the FHIR standard.
+</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="color: #f5aa42; font-family: Georgia, serif;font-size: 25px">FHIR and standards of Healthcare Interoperability</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="font-family: Times New Roman, Times; font-size: 18px; line-height: 30px;">
+The HL7 has developed several standards of EHR interoperability such as the HL7 V2, V3, Reference Information Model (RIM), and the Clinical Document Architecture (CDA). These standards are widely used in EHR systems. Most recently, the HL7  developed a new standard called the Fast Healthcare Interoperability Resources (FHIR) based on the RESTful API. FHIR is built on a set of components called Resources, which combines the best features of the CDA, HL7 v2, and HL7 v3. A resource can be used to store and exchange healthcare data over an HTTP endpoint using GET/POST request. This makes data exchange seamless and lightweight compared to the previous standards.  
+</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="color: #f5aa42; font-family: Georgia, serif; font-size: 25px">Project Aim</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="font-family: Times New Roman, Times; font-size: 18px; line-height: 30px;">
+I am quite familiar and understand the challenges of establishing interoperability in the Electronic Health Record System and the solutions provided by the FHIR standard. This project presents me with an opportunity to contribute significantly to the development of an EHR system that supports FHIR Standards thereby promoting the interoperability of healthcare data.
+This project aims to build web components for the LibreHealth EHR based on the FHIR resources using the <a href="https://polymer-library.polymer-project.org/">Polymer library</a>. This project will be restricted to the Observation, Medication, MedicationStatement and MedicationRequest FHIR resources. These resources have a maturity level of level 3 and above. <br />The Polymer library is used to create web components using HTML imports, HTML Template, Shadow DOM, and custom elements. The created web components in this project can be implemented in other EHR systems. The figure below shows the architecture of a typical web component.
+</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="/bolu-oluwalade/images/copied_from_nb/my_icons/web_component_architecture.PNG" alt="" /></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="font-family: Times New Roman, Times; font-size: 18px; line-height: 30px;">
+In addition, the created web components are integrated into the LibreHealth Toolkit and assembled to form a progressive web application. This is a continuation of the Librehealth Toolkit project from a previous GSoC <a href="https://medium.com/my-gsoc-diary/gsoc-2018-final-submission-report-4e7e18c5a73previous">project</a>.
+</span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span style="font-family: Times New Roman, Times; font-size: 18px; line-height: 30px;">
+The opening weeks (before June 1st) are decdicated to community bonding  where I will get to know more about the LibreHealth community.I will also familiarise myself with the FHIR resources of interest, breakdown the resurces into simpler parts for ease of development. I will finally develop mockups for these components.
+</span></p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="boluabraham/bolu-oluwalade"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/bolu-oluwalade/2020/05/08/Week-1.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/bolu-oluwalade/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/bolu-oluwalade/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/bolu-oluwalade/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>I express my thought about my work and projects in data analytics, clinical informatics and healthcare.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/boluabraham" title="boluabraham"><svg class="svg-icon grey"><use xlink:href="/bolu-oluwalade/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/boluabraham" title="boluabraham"><svg class="svg-icon grey"><use xlink:href="/bolu-oluwalade/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
