@@ -77,43 +77,9 @@ Figure 3 shows the use of a sidebar navigation content where each of the tabs li
 
 I would update the components list of the LH-toolkit app by incorporating the newly created components. Documentations of the polymer PWA template is available at [https://github.com/Polymer/pwa-starter-kit/blob/master/README.md](https://github.com/Polymer/pwa-starter-kit/blob/master/README.md). Here an appropriate template is selected and the elements are copied to the based on the 'src/component'. A uniform theme for the application is obtained by updating the shared-styles.js file in the 'src/component' folder. This serves as a source for the styling of the components. This style is imported into the web page containing all the new elements, thus conforming with the UI's theme.
 
-**TIMELINE:**
-
-I am able to work an average of 40 hours weekly. The proposed timeline is described below;
-
-**Before May 4:**
-
-Familiarize myself with the FHIR Resources.
-
-- Review and Familiarize with the project's submission from the previous years (2018 and 2019)
-- Study more on the polymer library and build some web components.
-
-**May 4 – May 31:**
-
-- Community Bonding with the LibreHealth community and Mentor
-- Divide the proposed resources into subcomponents
-- Understanding of Resources and Creation of Mockups for components
-
-**June 1 – August 31: Coding Period**
-
-- June 1 — July 10 (At least 4 components per week)
-  - Building of the components
-  - Mentor evaluation (July 1)
-- June 13 – July 24
-  - Unit testing of the built components
-- July 27 -July 31
-  - Review documentation for each component
-  - Mentor evaluation (July 31)
-- August 3 – August 14
-  - Building of the LH-toolkit app from the components
-- August 17- August 21
-  - Refine tests and documentation for the whole project and integrate into the lh-toolkit repository
-- August 24 -28
-  - Buffer week to in case of unforeseen delays
-- August 28
-  - Project submission and final mentor evaluation submission
-
 **APPENDIX**
+
+Packages built by me for this project: https://www.npmjs.com/search?q=%40boluabraham
 
 Material components:[https://material.io/components/](https://material.io/components/)
 
